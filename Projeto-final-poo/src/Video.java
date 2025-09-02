@@ -7,7 +7,7 @@ public class Video implements AcoesVideo{
 
     public Video(String titulo) {
         this.titulo = titulo;
-        this.avaliacao = 1;
+        this.avaliacao = 0;
         this.views = 0;
         this.curtidas = 0;
         this.reproduzindo = false;
